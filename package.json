@@ -1,0 +1,38 @@
+{
+  "name": "hubot-kanye",
+  "description": "A hubot plugin to inspire kayne-fidence",
+  "version": "1.0.0",
+  "author": "Kailean Courtney <kailean@gmail.com>",
+  "license": "MIT",
+
+  "keywords": [
+    "hubot",
+    "hubot-scripts"
+  ],
+
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/courtnek/hubot-kanye.git"
+  },
+
+  "bugs": {
+    "url": "https://github.com/courtnek/hubot-kanye/issues"
+  },
+
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*"
+  },
+
+  "main": "index.coffee",
+
+  "scripts": {
+    "test": "script/test"
+  }
+}
